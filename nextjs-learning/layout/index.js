@@ -2,8 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Header from "@/component/header";
-import Footer from "@/component/footer";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import Content from "@/components/content";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,7 @@ export default function Layout() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <p>Content</p>
+      <Content />
       <Footer />
     </>
   );
