@@ -8,7 +8,7 @@ import Content from "@/components/content";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Layout() {
+export default function Layout({ children }) {
   return (
     <>
       <Head>
@@ -18,7 +18,7 @@ export default function Layout() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Content />
+      {children}
       <Footer />
     </>
   );
