@@ -1,3 +1,13 @@
 .header {
   background-color: aqua;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
 }
